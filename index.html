@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary2Decimal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="content">
+            <h1>Binary<span style="color: #bda460">2</span>Decimal</h1>
+            <form>
+                <label for="binary-input">Binary value: </label><br>
+                <input type="text" id="binary-input" name="binary-input" maxlength="8"><br>
+                <div id="convert" name="convert" onclick="Convert()"><p>Convert to decimal</p></div><br>
+            </form>
+
+            <p>Decimal value: </p>
+            <div id="decimal" name="decimal">
+                <h3 id="result">0</h3>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
